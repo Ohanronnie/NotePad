@@ -118,7 +118,7 @@ div .added-note:first-child{
   visibility: visible;
 }
 .addtitle, .addcont{
-   margin-top: 15vh;
+   margin-top: 50vh;
    border-radius: 20px;
    width: 90%;
    height: 9vh;
