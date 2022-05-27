@@ -123,10 +123,8 @@ div .added-note:first-child{
    height: 9vh;
    margin-left: 5vw;
    margin-right: 5vw;
+   margin-top: 50vh;
 
-}
-.addtitle{
-margin-top: 50vh;
 }
 .title:hover, .title:focus ,.content hover, .content:focus{
 outline: 1.7px solid #00c0ff}
