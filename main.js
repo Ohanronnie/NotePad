@@ -13,9 +13,11 @@ let html ;
   if (notes != ""){
    notes.forEach(function(elelment, index){
     html += `<div style="
-    height: 20vh;
+    height: 100%;
     " id="added-note"class="added-note">
     <center>  <p style="
+    font-family: 'Oxygen', serif;
+
     color: grey;
     padding-top: 1.5vh;
     "class="Title">${notes[index].note_title}</p>
@@ -26,6 +28,8 @@ let html ;
   
   ">
   <p style="
+    font-family: 'Oxygen', serif;
+
   color: grey;
     padding-top: 0.5vh;
     text-align: center;
