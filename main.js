@@ -60,7 +60,7 @@ border-color: rgba(250,250,250,0.7);
 function deleteNote(index){
         
   notes.splice(index, 1);
-  localStorage.setItem("savedNotes", JSON.stringify(notes));
+  localStorage.setItem("savedNotes2", JSON.stringify(notes));
   showNotes();
 }
 
